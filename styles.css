@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  --color: #c0c0c0;
+  background-color: black;
+  /* margin: 50px; */
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "img1 img2 img3 img4 img5"
+    "img1 img8 img3 img10 img10"
+    "img1 img7 img9 img9 img11"
+    "img12 img7 img9 img9 img11";
+  grid-template-columns: repeat(5, 5fr);
+  grid-template-rows: repeat(4, 5fr);
+  grid-gap: 15px;
+}
+
+.img {
+  opacity: 0.75;
+}
+
+.img1 {
+  grid-area: img1;
+  background-image: url(./images/img1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img2 {
+  grid-area: img2;
+  background-image: url(./images/img2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img3 {
+  grid-area: img3;
+  background-image: url(./images/img3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img4 {
+  grid-area: img4;
+  background-image: url(./images/img4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img5 {
+  grid-area: img5;
+  background-image: url(./images/img5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* turn on if another img is needed and add div in html class ="img img6"
+
+.img6 {
+  grid-area: img6;
+  background-image: url(./images/img6.jpg);
+  background-size: cover;
+  background-position: center;
+} */
+
+.img7 {
+  grid-area: img7;
+  background-image: url(./images/img7.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img8 {
+  grid-area: img8;
+  background-image: url(./images/img8.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img9 {
+  grid-area: img9;
+  background-image: url(./images/img9.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img10 {
+  grid-area: img10;
+  background-image: url(./images/img10.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img11 {
+  grid-area: img11;
+  background-image: url(./images/img11.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img12 {
+  grid-area: img12;
+  background-image: url(./images/img12.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img:hover {
+  opacity: 1;
+  transition: 750ms;
+}
