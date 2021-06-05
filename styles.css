@@ -116,6 +116,18 @@ body {
   transition: 750ms;
 }
 
+.content-container {
+  display: flex;
+  margin-top: 30%;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.content-text {
+  text-align: center;
+  width: 30%;
+}
+
 /* Header */
 
 ul {
@@ -168,6 +180,6 @@ li a:hover {
   color: black;
 }
 
-.nav {
+.nav-links {
   padding-left: 60%;
 }
