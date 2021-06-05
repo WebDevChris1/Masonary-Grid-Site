@@ -1,3 +1,4 @@
+/* Page Styling */
 *,
 *::before,
 *::after {
@@ -9,11 +10,12 @@
 body {
   --color: #c0c0c0;
   background-color: black;
-  /* margin: 50px; */
   height: 100vh;
+  color: var(--color);
+  padding: 10px;
 }
 
-.container {
+.img-container {
   height: 100vh;
   display: grid;
   grid-template-areas:
@@ -25,6 +27,8 @@ body {
   grid-template-rows: repeat(4, 5fr);
   grid-gap: 15px;
 }
+
+/* Images */
 
 .img {
   opacity: 0.75;
@@ -64,15 +68,6 @@ body {
   background-size: cover;
   background-position: center;
 }
-
-/* turn on if another img is needed and add div in html class ="img img6"
-
-.img6 {
-  grid-area: img6;
-  background-image: url(./images/img6.jpg);
-  background-size: cover;
-  background-position: center;
-} */
 
 .img7 {
   grid-area: img7;
@@ -119,4 +114,60 @@ body {
 .img:hover {
   opacity: 1;
   transition: 750ms;
+}
+
+/* Header */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color);
+  padding: 0 10px;
+}
+
+li a {
+  font-size: 1em;
+}
+
+.header-container {
+  height: 10%;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  font-size: 2em;
+  border: 2px solid var(--color);
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.login {
+  border: 1px solid var(--color);
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.login:hover {
+  background-color: var(--color);
+  color: black;
+}
+
+.nav {
+  padding-left: 60%;
 }
