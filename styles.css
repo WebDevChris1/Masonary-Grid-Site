@@ -280,6 +280,7 @@ i:hover {
 
 /* 1050px? */
 @media screen and (max-width: 770px) {
+  /* content */
   .content-container {
     display: flex;
     flex-direction: column;
@@ -303,6 +304,7 @@ i:hover {
     margin-bottom: 0;
   }
 
+  /* header */
   .nav-link {
     display: none;
   }
