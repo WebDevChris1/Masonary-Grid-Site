@@ -305,6 +305,7 @@ i:hover {
   }
 
   /* header */
+
   .nav-link {
     display: none;
   }
@@ -315,6 +316,7 @@ i:hover {
 
   .mobile-menu-container {
     border: 2px solid var(--color);
+    border-radius: 5px;
     height: 40px;
     width: 40px;
     display: flex;
@@ -327,16 +329,19 @@ i:hover {
   .menu-line-1 {
     width: 60%;
     height: 2px;
-    background-color: var(--color);
+    border: 1px solid var(--color);
+    border-radius: 5px;
   }
   .menu-line-2 {
     width: 60%;
     height: 2px;
-    background-color: var(--color);
+    border: 1px solid var(--color);
+    border-radius: 5px;
   }
   .menu-line-3 {
     width: 60%;
     height: 2px;
-    background-color: var(--color);
+    border: 1px solid var(--color);
+    border-radius: 5px;
   }
 }
