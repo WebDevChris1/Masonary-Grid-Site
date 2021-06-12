@@ -340,13 +340,13 @@ i:hover {
   .mobile-menu-container {
     border: 2px solid var(--color);
     border-radius: 5px;
-    height: 40px;
+    height: 35px;
     width: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 8px 0;
+    padding: 5px 0;
     margin-right: 10px;
   }
   .menu-line-1 {
